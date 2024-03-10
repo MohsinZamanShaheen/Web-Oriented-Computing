@@ -105,7 +105,7 @@ header nav ul li:last-child {
 }
 
 .main-content {
-    background-image: url('/Apartado1/images/back_img.jpg');
+    background-image: url('../images/back_img.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
