@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Hotel Bellevue",
+    "address": "456 Park Avenue, Los Angeles, USA",
+    "price": "$345",
+    "rating": "★★★★☆",
+    "image": "./images/back_img.jpg"
+  },
+  {
+    "name": "Grand Hotel",
+    "address": "64 Myers St.Key West, FL 33040",
+    "price": "$450",
+    "rating": "★★★★★",
+    "image": "./images/hotel1.jpg"
+  },
+  {
+    "name": "PaletteParadise Stays",
+    "address": "456 Park Avenue, Los Angeles, USA",
+    "price": "$215",
+    "rating": "★★★★☆",
+    "image": "./images/hotel2.png"
+  },
+  {
+    "name": "LuxuriousLodge Suites",
+    "address": "64 Cobblestone Drive Bethlehem, PA 18015 USA",
+    "price": "$749",
+    "rating": "★★★★☆",
+    "image": "./images/hotel3.jpg"
+  },
+  {
+    "name": "LuxeLiving Residences",
+    "address": "1 Canterbury St. Clayton, NC 27520, USA",
+    "price": "$999",
+    "rating": "★★★★★",
+    "image": "./images/back_img.jpg"
+  },
+  {
+    "name": "Hotel Excellence Artistry",
+    "address": "456 Park Avenue, Los Angeles, USA",
+    "price": "$550",
+    "rating": "★★★★☆",
+    "image": "./images/hotel2.png"
+  },
+  {
+    "name": "Coastal Paradise",
+    "address": "Avendaño 90,Abrucena Almería,04520, Spain",
+    "price": "$399",
+    "rating": "★★★★☆",
+    "image": "./images/hotel1.jpg"
+  },
+  {
+    "name": "Bourbon bliss",
+    "address": "546 Maymie Flat, Apt. 730  , Delaware, Ireland",
+    "price": "$200",
+    "rating": "★★★★☆",
+    "image": "./images/hotel3.jpg"
+  },
+  {
+    "name": "Mangrove Manor",
+    "address": "22779 Sigmund Ford, Apt. 952 New Brunswick, Canada",
+    "price": "$200",
+    "rating": "★★★★☆",
+    "image": "./images/hotel4.jpg"
+  },
+  {
+    "name": "Ajave Khotea",
+    "address": "Sauerbruchstr. 314, 7 OG, 49726, Nord Melisa, Hessen, Germany",
+    "price": "$160",
+    "rating": "★★★★☆",
+    "image": "./images/back_img.jpg"
+  },
+  {
+    "name": "Dangar Hotel",
+    "address": "Bellavista 79 Santibáñez De Vidriales Zamora, 49610, Spain",
+    "price": "$90",
+    "rating": "★★☆☆☆",
+    "image": "./images/hotel2.png"
+  }
+]
