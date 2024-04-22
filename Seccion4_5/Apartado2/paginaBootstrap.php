@@ -292,7 +292,6 @@ session_start();
                 xmlhttp.onreadystatechange = function() {
                     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                         var suggestions = xmlhttp.responseText;
-                        console.log(suggestions);
                         var hintContainer = document.getElementById("hintContainer");
                         if (suggestions === "no suggestion") {
                             hintContainer.innerHTML = "";

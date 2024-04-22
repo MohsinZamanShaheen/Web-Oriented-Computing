@@ -9,6 +9,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = $_POST['emailInput'];
         $password = $_POST['passwordInput'];
 
+        // Check if the users table exists
+        $statement = $conn->prepare("SELECT 1 FROM information_schema.tables WHERE table_schema = ? AND table_name = ?");
+        $statement->execute([$database, 'users']);
+        $tableExists = ($statement->fetchColumn() !== false);
+
+        if (!$tableExists) {
+            echo "No users found! PLEASE SIGN UP FIRST!";
+            exit();
+        }
+
         $stmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
         $stmt->execute([$email]);
         $user = $stmt->fetch();

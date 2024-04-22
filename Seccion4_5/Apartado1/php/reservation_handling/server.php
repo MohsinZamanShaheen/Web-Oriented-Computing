@@ -67,7 +67,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 FOREIGN KEY (user_id) REFERENCES users(user_id)
             )";            
             $conn->exec($reser_table);
-            echo "Table MyGuests created successfully";
         }
         // Just insert data into the table
         $insert = "INSERT INTO reservations (user_id,name, email, phone, checkin_date, checkout_date, comments, hotel_name, price) VALUES ('$userId', '$name', '$email', '$phone', '$checkinDate', '$checkoutDate', '$comments', '$hotelName', '$price')";

@@ -32,35 +32,35 @@
     "address": "1 Canterbury St. Clayton, NC 27520, USA",
     "price": "$999",
     "rating": "★★★★★",
-    "image": "./images/back_img.jpg"
+    "image": "./images/hotel9.jpg"
   },
   {
     "name": "Hotel Excellence Artistry",
     "address": "456 Park Avenue, Los Angeles, USA",
     "price": "$550",
     "rating": "★★★★☆",
-    "image": "./images/hotel2.png"
+    "image": "./images/hotel4.jpg"
   },
   {
     "name": "Coastal Paradise",
     "address": "Avendaño 90,Abrucena Almería,04520, Spain",
     "price": "$399",
     "rating": "★★★★☆",
-    "image": "./images/hotel1.jpg"
+    "image": "./images/hotel5.jpg"
   },
   {
     "name": "Bourbon bliss",
     "address": "546 Maymie Flat, Apt. 730  , Delaware, Ireland",
     "price": "$200",
     "rating": "★★★★☆",
-    "image": "./images/hotel3.jpg"
+    "image": "./images/hotel6.jpg"
   },
   {
     "name": "Mangrove Manor",
     "address": "22779 Sigmund Ford, Apt. 952 New Brunswick, Canada",
     "price": "$200",
     "rating": "★★★★☆",
-    "image": "./images/hotel4.jpg"
+    "image": "./images/hotel7.jpeg"
   },
   {
     "name": "Ajave Khotea",
@@ -74,6 +74,6 @@
     "address": "Bellavista 79 Santibáñez De Vidriales Zamora, 49610, Spain",
     "price": "$90",
     "rating": "★★☆☆☆",
-    "image": "./images/hotel2.png"
+    "image": "./images/hotel8.jpeg"
   }
 ]
