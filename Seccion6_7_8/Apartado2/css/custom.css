@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.suggestion-box {
+    position: relative;
+    width: 10%;
+    max-height: 200px;
+    margin-left: 15vw;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: blue;
+    color: white;
+}
